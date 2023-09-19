@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Ubuntu&family=Varela+Round&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto sans',sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    padding: 19px 12px;
+}
+
+ul{
+    display: flex;
+}
+
+ul li{
+    list-style: none;
+    padding: 0 13px;
+}
+
+ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+ul li a:hover{
+    color: rgb(104, 102, 119);
+}
+
+main
+{
+    min-height: 81vh;
+    padding: 2px;
+}
+
+.container
+{
+    background-color: azure;
+    max-width: 80-vw;
+    margin: auto;
+    padding: 15px;
+}
+footer
+{
+    background-color: black;
+    color: white;
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width:600px) {
+    body
+    {
+        background-color: lightblue;
+    }
+
+    .container
+    {
+        font-size: 12px;
+    }
+}
