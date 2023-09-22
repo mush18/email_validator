@@ -76,6 +76,11 @@ footer
 
     .logo
     {
-        padding:6px;
+        padding:6px 0;
+    }
+
+    .logo img{
+        width: 15px;
+        filter: invert(1);
     }
 }
